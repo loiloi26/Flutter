@@ -88,30 +88,29 @@ class _HomePageState extends State<HomePage> {
                   SizedBox(
                     height: 10,
                   ),
-                  Row(
+                  Column(
+                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Padding(
-                        padding:
-                            EdgeInsets.all(6), // Adjust the padding as needed
-                        child: Image.asset('assets/icons/Like.png'),
-                      ),
-                      SizedBox(
-                        width: 15,
-                        height: 5,
-                      ),
-                      Image.asset('assets/icons/Comment.png'),
-                      SizedBox(
-                        width: 15,
-                      ),
-                      Image.asset('assets/icons/Messanger.png'),
-                      Spacer(flex: 1),
-                      Image.asset('assets/icons/Pagination.png'),
-                      Spacer(flex: 1),
-                      Padding(
-                        padding:
-                            EdgeInsets.all(5), // Adjust the padding as needed
-                        child: Image.asset('assets/icons/Save.png'),
-                      ),
+                      // Expanded(
+                      //     child: Row(
+                      //         // children: [
+                      //         //   Image.asset('assets/icons/Like.png'),
+                      //         //   SizedBox(
+                      //         //     width: 16,
+                      //         //   ),
+                      //         //   Image.asset('assets/icons/Comment.png'),
+                      //         //   SizedBox(
+                      //         //     width: 16,
+                      //         //   ),
+                      //         //   Image.asset('assets/icons/Messanger.png')
+                      //         // ],
+                      //         )),
+                      // Image.asset('assets/icons/Pagination.png'),
+                      // Expanded(
+                      //   child: Container(),
+                      // )
+                      Expanded(child: Container()),
+                      
                     ],
                   ),
                   SizedBox(height: 5),
